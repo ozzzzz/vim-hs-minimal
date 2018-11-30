@@ -18,6 +18,8 @@ Minimal configurations for vim
 
 * Install [NERDTree](https://github.com/scrooloose/nerdtree)
 
+* Install [vim-airline](https://github.com/vim-airline/vim-airline)
+
 
 * Add some bindings and settings (`~/.vimrc`):
 ```
