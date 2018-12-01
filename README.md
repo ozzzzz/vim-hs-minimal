@@ -27,6 +27,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+:set mousemodel=extend
+
 " vim-syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -47,8 +49,8 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-c> :%!stylish-haskell<CR>
 
 " buffers
-map <C-[> :bp<CR>
-map <C-]> :bn<CR>
+map <S-tab> :bp<CR>
+map <tab> :bn<CR>
 " next to close buffer without hassle: https://stackoverflow.com/questions/31805805/vim-close-buffer-with-nerdtree
 nnoremap c :bp\|bd #<CR>
 ```
