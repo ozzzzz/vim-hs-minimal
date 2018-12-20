@@ -28,6 +28,7 @@ syntax on
 filetype plugin indent on
 
 :set mousemodel=extend
+:set mouse=a
 
 " vim-syntastic
 set statusline+=%#warningmsg#
